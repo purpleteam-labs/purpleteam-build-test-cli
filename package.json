@@ -1,5 +1,7 @@
 {
-  "name": "purpleteam-test",  
+  "name": "purpleteam-build-test-cli",
+  "version": "1.0.0",
+  "description": "Used to test that the purpleteam CLI runs within a build pipeline successfully",
   "main": "index.js",
   "scripts": {
     "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "env NODE_ENV='local' ",
@@ -14,5 +16,18 @@
   },
   "dependencies": {
     "purpleteam": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purpleteam-labs/purpleteam-build-test-cli.git"
+  },
+  "author": {
+    "name": "Kim Carter",
+    "email": "services@binarymist.net"
+  },
+  "license": "MIT",
+  "homepage": "https://purpleteam-labs.com",
+  "bugs": {
+    "url": "https://github.com/purpleteam-labs/purpleteam/issues"
   }
 }
