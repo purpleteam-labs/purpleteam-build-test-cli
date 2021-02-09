@@ -17,4 +17,4 @@
 <br/><br/>
 </div>
 
-Usage details found [here](https://github.com/purpleteam-labs/purpleteam).
+Usage details found [here](https://github.com/purpleteam-labs/purpleteam#npm-install-locally).
