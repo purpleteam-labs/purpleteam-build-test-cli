@@ -6,13 +6,13 @@
   "scripts": {
     "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "env NODE_ENV='local' ",
     "// Invoke purpleteam binary from NPM script": "npm run purpleteam",
-    "purpleteam": "env NODE_ENV='local' purpleteam",
+    "purpleteam": "NODE_ENV=local purpleteam",
     "// Start your node app": "npm start",
-    "start": "env NODE_ENV='local' node index.js",
+    "start": "NODE_ENV=local node index.js",
     "// Debug your node app": "npm run debugApp",
-    "debugApp": "env NODE_ENV='local' node --inspect-brk=localhost:9230 index.js",
+    "debugApp": "NODE_ENV=local node --inspect-brk=localhost:9230 index.js",
     "// Debug your node app and the purpleteam CLI": "npm run debugAppAndCli",
-    "debugAppAndCli": "env NODE_ENV='local' env DEBUG_PURPLETEAM='true' node --inspect-brk=localhost:9230 index.js"
+    "debugAppAndCli": "NODE_ENV=local DEBUG_PURPLETEAM=true node --inspect-brk=localhost:9230 index.js"
   },
   "dependencies": {
     "purpleteam": "*"
