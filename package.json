@@ -4,15 +4,15 @@
   "description": "Used to test that the purpleteam CLI runs within a build pipeline successfully",
   "main": "index.js",
   "scripts": {
-    "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "env NODE_ENV='local' ",
+    "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "env NODE_ENV='local' and PURPLETEAM_UI=noUi",
     "// Invoke purpleteam binary from NPM script": "npm run purpleteam",
     "purpleteam": "NODE_ENV=local purpleteam",
     "// Start your node app": "npm start",
-    "start": "NODE_ENV=local node index.js",
+    "start": "NODE_ENV=local PURPLETEAM_UI=noUi node index.js",
     "// Debug your node app": "npm run debugApp",
-    "debugApp": "NODE_ENV=local node --inspect-brk=localhost:9230 index.js",
+    "debugApp": "NODE_ENV=local PURPLETEAM_UI=noUi node --inspect-brk=localhost:9230 index.js",
     "// Debug your node app and the purpleteam CLI": "npm run debugAppAndCli",
-    "debugAppAndCli": "NODE_ENV=local DEBUG_PURPLETEAM=true node --inspect-brk=localhost:9230 index.js"
+    "debugAppAndCli": "NODE_ENV=local PURPLETEAM_UI=noUi DEBUG_PURPLETEAM=true node --inspect-brk=localhost:9230 index.js"
   },
   "dependencies": {
     "purpleteam": "*"
