@@ -4,7 +4,7 @@
   "description": "Used to test that the purpleteam CLI runs within a build pipeline successfully",
   "main": "index.js",
   "scripts": {
-    "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "env NODE_ENV='local' and PURPLETEAM_UI=noUi",
+    "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "NODE_ENV=local and PURPLETEAM_UI=noUi",
     "// Invoke purpleteam binary from NPM script": "npm run purpleteam",
     "purpleteam": "NODE_ENV=local purpleteam",
     "// Start your node app": "npm start",
