@@ -29,5 +29,9 @@
   "homepage": "https://purpleteam-labs.com",
   "bugs": {
     "url": "https://github.com/purpleteam-labs/purpleteam/issues"
-  }
+  },
+  "files": [
+    "LEGALNOTICE.md",
+    "licenses"
+  ]
 }
