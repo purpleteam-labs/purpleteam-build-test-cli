@@ -1,3 +1,15 @@
+// Copyright (C) 2017-2022 BinaryMist Limited. All rights reserved.
+
+// This file is ancillary to PurpleTeam.
+
+// purpleteam-build-test-cli is free software: you can redistribute it and/or modify
+// it under the terms of the MIT License.
+
+// purpleteam-build-test-cli is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MIT License for more details.
+
 const { spawn } = require('child_process');
 
 // You will need to define two debuggers in what ever tool you're using.
