@@ -10,7 +10,7 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // MIT License for more details.
 
-const { spawn } = require('child_process');
+import { spawn } from 'child_process';
 
 // You will need to define two debuggers in what ever tool you're using.
 // localhost:9230 and localhost:9231

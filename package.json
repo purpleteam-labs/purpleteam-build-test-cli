@@ -2,7 +2,7 @@
   "name": "purpleteam-build-test-cli",
   "version": "1.0.2",
   "description": "Used to test that the purpleteam CLI runs within a build pipeline successfully",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "// Don't forget to export any required env vars before running the purpleteam CLI. For example": "NODE_ENV=local and PURPLETEAM_UI=noUi",
     "// Invoke purpleteam binary from NPM script": "npm run purpleteam",
@@ -26,6 +26,7 @@
     "email": "services@binarymist.net"
   },
   "license": "MIT",
+  "type": "module",
   "homepage": "https://purpleteam-labs.com",
   "bugs": {
     "url": "https://github.com/purpleteam-labs/purpleteam/issues"
