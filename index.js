@@ -20,7 +20,7 @@ const childProcessInspectPort = 9231;
 const purpleteamArgs = ['purpleteam', 'test'];
 
 
-startPurpleteam = () => {
+const startPurpleteam = () => {
   const purpleteam = spawn('node', [
     ...(process.env.DEBUG_PURPLETEAM
     ? [`${execArgvDebugString}:${childProcessInspectPort}`]
